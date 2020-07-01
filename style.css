@@ -1,0 +1,141 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size:60px;
+    color:#EC4C7A;
+    font-weight:bold;
+}
+h2{
+    font-size:50px;
+    color:#202428;
+}
+h3{
+    font-size:40px;
+    color:#202428;
+    padding-left:10px;
+}
+p{
+    font-size:18px;
+    color:#707070;
+    line-height:150%;
+}
+a{
+    text-decoration:none;
+}
+.section1,.section2,.section3,.section4{
+    height:850px;
+}
+.section1{
+    background:url(img/header-bg.png);
+    background-repeat: no-repeat;
+}
+.section1 div:first-of-type{
+    padding-top:200px;
+}
+.section1 div:first-of-type h1{
+    margin-top:-25px;
+}
+.section1 div:first-of-type p{
+    margin-bottom:50px;
+}
+.section2{
+    background: url(img/biography-bg.png)no-repeat;
+}
+.section2 div:first-of-type img{
+    width:85%;
+}
+.section2 div:last-of-type{
+    padding-top:220px;
+}
+.section2 div:last-of-type p{
+    margin-bottom:50px;
+}
+.half_width{
+    width:40%;
+    margin-left:5%;
+    padding:100px 0px;
+    padding-left:2%;
+    float:left;
+}
+.half_width img{
+    width:100%;
+}
+.half_width a{
+    display:inline-block;
+    background:#EC4C78;
+    color:white;
+    padding:15px 40px;
+    border-radius: 5px;
+    box-shadow:2px 2px 5px grey;
+}
+.half_width a:hover{
+    background:orange;
+    color:black;
+    transform:scale(1.1);
+    transition:all ease 0.3s;
+}
+.section3{
+    background:url(img/latest-work-bg.png)no-repeat;
+    height:700px;
+}
+.section3 h2{
+    text-align: center;
+    padding-top:70px;
+}
+.single_width{
+    width:90%;
+    margin:auto;
+    padding:45px 10px;
+}
+.single_width div{
+    margin-left:3%;
+    width:30%;
+    float: left;
+}
+.single_width div img{
+    width:100%;
+}
+.section4{
+    height:750px;
+    background: url(img/footer-bg.png)no-repeat;
+    text-align:center;
+    padding:70px 10px;
+}
+.section4 .client_p{
+    padding-top:40px;
+    font-size:20px;
+    font-weight:bold;
+    color:#202428;
+}
+.section4 .client_p_small{
+    margin-top:-15px;
+    font-size:14px;
+}
+.section4 .client_spech{
+    color:#202428;
+    padding-top:25px;
+    padding-bottom: 20px;
+}
+.section4 .contact_div{
+    background:#EC4F8F;
+    width:750px;
+    height:210px;
+    border-radius: 10px;
+    margin:auto;
+    margin-top:70px;
+}
+.section4 .contact_div p{
+    padding-top:50px;
+    padding-bottom:10px;
+    color:white;
+}
+.section4 .contact_div a{
+    font-size:30px;
+    color:white;
+}
+footer p{
+    padding:10px 0px;
+    text-align: center;
+}
